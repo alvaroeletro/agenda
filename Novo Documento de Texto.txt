@@ -1,0 +1,12 @@
+o módulo Models contém a classe Evento.
+
+a classe evento contém, título, descrição, datas e qual usuário.
+
+No módulo views precisa importar a classe Evento de core.models
+também o módulo views foi criado o método lista_eventos, 
+
+deve ser criado o caminho no módulo urls.py 
+path('agenda/', views.lista_eventos),
+
+{%usa comandos python dentro do HTML%}
+
